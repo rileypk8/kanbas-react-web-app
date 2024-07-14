@@ -9,6 +9,5 @@ export default function KanbasNavigation() {
         <li><a id="wd-inbox-link" href="#/Kanbas/Inbox">Inbox</a></li>
         <li><a id="wd-labs-link" href="#/Labs">Labs</a></li>
       </ul>
-  );
-}
+  );}
   
