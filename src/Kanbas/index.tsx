@@ -5,7 +5,7 @@ import Courses from "./Courses";
 import "./styles.css";
 export default function Kanbas() {
   return (
-    <div id="wd-kanbas">
+    <div id ="wd-kanbas">
       <KanbasNavigation />
       <div className="wd-main-content-offset p-3">
         <Routes>
@@ -13,7 +13,8 @@ export default function Kanbas() {
           <Route path="Dashboard" element={<Dashboard />} />
           <Route path="Courses/:cid/*" element={<Courses />} />
         </Routes>
-      </div>
-    </div>
+        </div>  
+</div>
+    
   );
 }

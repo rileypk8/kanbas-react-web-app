@@ -12,8 +12,8 @@ export default function Courses() {
                 <FaAlignJustify className="me-4 fs-4 mb-1" />
                 Course 101</h2>
             <hr />
-            <CoursesNavigation />
             <div>
+                <CoursesNavigation />
                 <Routes>
                     <Route path="/" element={<Navigate to="Home" />} />
                     <Route path="Home" element={<Home />} />

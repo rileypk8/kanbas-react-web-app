@@ -1,20 +1,36 @@
 import AssignmentControl from "./AssignmentControl";
 import LessonControlButtons from "../Modules/LessonControlButtons";
+import { FaPlus } from "react-icons/fa6";
 
 export default function Assignments() {
     return (
         <div id="wd-assignments">
-            <input id="wd-search-assignment"
-                placeholder="Search for Assignments" />
-            <button id="wd-add-assignment-group">+ Group</button>
-            <button id="wd-add-assignment">+ Assignment</button>
+            <div id="wd-assignButt" className="d-flex mb-3">
+                <div className="me-auto p-2">
+                    <input id="wd-search-assignment"
+                        placeholder="Search for Assignments" />
+                </div>
+                <div className="p-2">
+                    <button id="wd-add-assignment-group"
+                        className="btn btn-lg btn-secondary me-1 float-end">
+                        <FaPlus className="position-relative me-2" style={{ bottom: "1px" }} />
+                        Group
+                    </button>
+                    <button id="wd-add-assignment"
+                        className="btn btn-lg btn-danger me-1 float-end">
+                        <FaPlus className="position-relative me-2" style={{ bottom: "1px" }} />
+                        Assignment
+                    </button>
+                </div>
+                <br /><br />
+            </div>
             <div id="wd-assignments-title">
                 ASSIGNMENTS 40% of Total <button>+</button>
             </div>
             <div id="wd-assignment-list">
                 <div className="wd-assignment-list-item">
-                <AssignmentControl />
-                <a className="wd-assignment-link"
+                    <AssignmentControl />
+                    <a className="wd-assignment-link"
                         href="#/Kanbas/Courses/101/Assignments/a1">
                         A1
                     </a><br />
@@ -23,7 +39,7 @@ export default function Assignments() {
                     <LessonControlButtons />
                 </div>
                 <div className="wd-assignment-list-item">
-                <AssignmentControl />
+                    <AssignmentControl />
 
                     <a className="wd-assignment-link"
                         href="#/Kanbas/Courses/101/Assignments/a2">
@@ -35,7 +51,7 @@ export default function Assignments() {
 
                 </div>
                 <div className="wd-assignment-list-item">
-                <AssignmentControl />
+                    <AssignmentControl />
 
                     <a className="wd-assignment-link"
                         href="#/Kanbas/Courses/101/Assignments/a3">
@@ -48,4 +64,5 @@ export default function Assignments() {
                 </div>
             </div>
         </div>
-    );}
+    );
+}

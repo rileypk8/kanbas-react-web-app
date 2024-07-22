@@ -6,7 +6,7 @@ import { TfiAnnouncement } from "react-icons/tfi";
 import { RiBarChart2Fill } from "react-icons/ri";
 export default function CourseStatus() {
   return (
-    <div id="wd-course-status" style={{ width: "300px" }}>
+    <div id="wd-course-status" d-xl-block style={{ width: "300px" }}>
       <h2>Course Status</h2>
       <div className="d-flex">
         <div className="w-50 pe-1">

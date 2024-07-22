@@ -5,7 +5,7 @@ export default function Dashboard() {
       <h2 id="wd-dashboard-published">Published Courses (12)</h2> <hr />
       <div id="wd-dashboard-courses" className="row">
         <div className="row row-cols-1 row-cols-md-5 g-4">
-          <div className="wd-dashboard-course col" style={{ width: "300px" }}>
+          <div className="wd-dashboard-course col" style={{ width: "270px" }}>
             <div className="card">
               <a className="wd-dashboard-course-link text-decoration-none text-dark"
                 href="#/Kanbas/Courses/101/Home">
@@ -22,7 +22,7 @@ export default function Dashboard() {
               </a>
             </div>
           </div>
-          <div className="wd-dashboard-course col" style={{ width: "300px" }}>
+          <div className="wd-dashboard-course col" style={{ width: "270px" }}>
             <div className="card">
               <a className="wd-dashboard-course-link text-decoration-none text-dark"
                 href="#/Kanbas/Courses/102/Home">
@@ -32,14 +32,14 @@ export default function Dashboard() {
                     CS102 - Cookie Ops
                   </h5>
                   <p className="card-text">
-                    C is for Cookie. Nom Nom Nom.
+                    C is for Cookie.
                   </p>
                   <button className="btn btn-primary"> Go </button>
                 </div>
               </a>
             </div>
           </div>
-          <div className="wd-dashboard-course col" style={{ width: "300px" }}>
+          <div className="wd-dashboard-course col" style={{ width: "270px" }}>
             <div className="card">
               <a className="wd-dashboard-course-link text-decoration-none text-dark"
                 href="#/Kanbas/Courses/103/Home">
@@ -56,7 +56,7 @@ export default function Dashboard() {
               </a>
             </div>
           </div>
-          <div className="wd-dashboard-course col" style={{ width: "300px" }}>
+          <div className="wd-dashboard-course col" style={{ width: "270px" }}>
             <div className="card">
               <a className="wd-dashboard-course-link text-decoration-none text-dark"
                 href="#/Kanbas/Courses/104/Home">
@@ -73,7 +73,7 @@ export default function Dashboard() {
               </a>
             </div>
           </div>
-          <div className="wd-dashboard-course col" style={{ width: "300px" }}>
+          <div className="wd-dashboard-course col" style={{ width: "270px" }}>
             <div className="card">
               <a className="wd-dashboard-course-link text-decoration-none text-dark"
                 href="#/Kanbas/Courses/105/Home">
@@ -90,7 +90,7 @@ export default function Dashboard() {
               </a>
             </div>
           </div>
-          <div className="wd-dashboard-course col" style={{ width: "300px" }}>
+          <div className="wd-dashboard-course col" style={{ width: "270px" }}>
             <div className="card">
               <a className="wd-dashboard-course-link text-decoration-none text-dark"
                 href="#/Kanbas/Courses/106/Home">
@@ -107,7 +107,7 @@ export default function Dashboard() {
               </a>
             </div>
           </div>
-          <div className="wd-dashboard-course col" style={{ width: "300px" }}>
+          <div className="wd-dashboard-course col" style={{ width: "270px" }}>
             <div className="card">
               <a className="wd-dashboard-course-link text-decoration-none text-dark"
                 href="#/Kanbas/Courses/107/Home">
@@ -124,7 +124,7 @@ export default function Dashboard() {
               </a>
             </div>
           </div>
-          <div className="wd-dashboard-course col" style={{ width: "300px" }}>
+          <div className="wd-dashboard-course col" style={{ width: "270px" }}>
             <div className="card">
               <a className="wd-dashboard-course-link text-decoration-none text-dark"
                 href="#/Kanbas/Courses/108/Home">
@@ -141,7 +141,7 @@ export default function Dashboard() {
               </a>
             </div>
           </div>
-          <div className="wd-dashboard-course col" style={{ width: "300px" }}>
+          <div className="wd-dashboard-course col" style={{ width: "270px" }}>
             <div className="card">
               <a className="wd-dashboard-course-link text-decoration-none text-dark"
                 href="#/Kanbas/Courses/109/Home">
@@ -159,7 +159,7 @@ export default function Dashboard() {
               </a>
             </div>
           </div>
-          <div className="wd-dashboard-course col" style={{ width: "300px" }}>
+          <div className="wd-dashboard-course col" style={{ width: "270px" }}>
             <div className="card">
               <a className="wd-dashboard-course-link text-decoration-none text-dark"
                 href="#/Kanbas/Courses/110/Home">
