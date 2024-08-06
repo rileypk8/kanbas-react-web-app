@@ -1,5 +1,5 @@
-import LeftAss from "./LeftAss";
-import RightAss from "./RightAss";
+import LCheek from "./LCheek";
+import RCheek from "./RCheek";
 import AssMan from "./AssMan";
 import { FaMagnifyingGlass, FaPlus } from "react-icons/fa6";
 import { BsGripVertical, BsPlusLg } from "react-icons/bs";
@@ -33,7 +33,7 @@ export default function Assignments() {
 
             this is between butts and ass
             <br /><br />
-            <ul id="wd-asss" className="list-group rounded-0">
+            <ul id="wd-bikini" className="list-group rounded-0">
                 <li className="wd-assignment-list list-group-item p-0 mb-5 fs-5 border-gray">
                     <div className="wd-title p-3 ps-2 bg-secondary">
                         <BsGripVertical className="me-2 fs-3" />
@@ -43,35 +43,35 @@ export default function Assignments() {
                         <IoEllipsisVertical className="fs-4" />
                     </div>
                     <ul className="wd-assignments list-group rounded-0">
-                        <li className="wd-ass-li list-group-item p-3 ps-1">
-                                <LeftAss />
+                        <li className="wd-cheek-li list-group-item p-3 ps-1">
+                                <LCheek />
                                 <a className="wd-assignment-link"
                                     href="#/Kanbas/Courses/101/Assignments/a1">
                                     A1
                                 </a><br />
                                 Multiple Modules | <b>Not available until</b> May 6 at 12
                                 :00am | <b>Due:</b> May 13 at 11:59pm | 100 pts
-                                <RightAss />
+                                <RCheek />
                         </li>
-                        <li className="wd-ass-li list-group-item">
-                                <LeftAss />
+                        <li className="wd-cheek-li list-group-item">
+                                <LCheek />
                                 <a className="wd-assignment-link"
                                     href="#/Kanbas/Courses/101/Assignments/a2">
                                     A2
                                 </a><br />
                                 Multiple Modules | <b>Not available until</b> May 13 at 12
                                 :00am | <b>Due:</b> May 20 at 11:59pm | 100 pts
-                                <RightAss />
+                                <RCheek />
                         </li>
-                        <li className="wd-ass-li list-group-item">
-                                <LeftAss />
+                        <li className="wd-cheek-li list-group-item">
+                                <LCheek />
                                 <a className="wd-assignment-link"
                                     href="#/Kanbas/Courses/101/Assignments/a3">
                                     A3
                                 </a><br />
                                 Multiple Modules | <b>Not available until</b> May 20 at 12
                                 :00am | <b>Due:</b> May 27 at 11:59pm | 100 pts
-                                <RightAss />
+                                <RCheek />
                         </li>
                     </ul>
                 </li>

@@ -1,6 +1,6 @@
 import { MdOutlineAssignment } from "react-icons/md";
 import { BsGripVertical } from "react-icons/bs";
-export default function LeftAss() {
+export default function LCheek() {
   return (
     <div className="float-start">
       <BsGripVertical className="fs-4" />
