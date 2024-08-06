@@ -38,39 +38,47 @@ export default function Assignments() {
                     <div className="wd-title p-3 ps-2 bg-secondary">
                         <BsGripVertical className="me-2 fs-3" />
                         ASSIGNMENTS
-                        <span id="wd-booty">40% of Total</span>
+                        <div className="float-end">
+                        <span id="wd-booty" className="p-2 me-3">40% of Total</span>
                         <BsPlusLg className="position-relative me-2" style={{ bottom: "1px" }} />
                         <IoEllipsisVertical className="fs-4" />
+                        </div>
                     </div>
                     <ul className="wd-assignments list-group rounded-0">
-                        <li className="wd-cheek-li list-group-item p-3 ps-1">
+                        <li className="wd-cheek-li list-group-item">
                                 <LCheek />
+                                <div className="float-start">
                                 <a className="wd-assignment-link"
                                     href="#/Kanbas/Courses/101/Assignments/a1">
                                     A1
                                 </a><br />
                                 Multiple Modules | <b>Not available until</b> May 6 at 12
                                 :00am | <b>Due:</b> May 13 at 11:59pm | 100 pts
+                                </div>
                                 <RCheek />
                         </li>
                         <li className="wd-cheek-li list-group-item">
                                 <LCheek />
+                                <div className="float-start">
                                 <a className="wd-assignment-link"
                                     href="#/Kanbas/Courses/101/Assignments/a2">
                                     A2
                                 </a><br />
                                 Multiple Modules | <b>Not available until</b> May 13 at 12
                                 :00am | <b>Due:</b> May 20 at 11:59pm | 100 pts
+                                </div>
                                 <RCheek />
                         </li>
                         <li className="wd-cheek-li list-group-item">
                                 <LCheek />
+                                <div className="float-start">
                                 <a className="wd-assignment-link"
                                     href="#/Kanbas/Courses/101/Assignments/a3">
                                     A3
                                 </a><br />
                                 Multiple Modules | <b>Not available until</b> May 20 at 12
                                 :00am | <b>Due:</b> May 27 at 11:59pm | 100 pts
+                                </div>
                                 <RCheek />
                         </li>
                     </ul>
