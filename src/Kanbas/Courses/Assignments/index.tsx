@@ -31,7 +31,6 @@ export default function Assignments() {
             </div> */}
             <br /><br />
 
-            this is between butts and ass
             <br /><br />
             <ul id="wd-bikini" className="list-group rounded-0">
                 <li className="wd-assignment-list list-group-item p-0 mb-5 fs-5 border-gray">
