@@ -45,7 +45,8 @@ export default function Assignments() {
                     </div>
                     <ul className="wd-assignments list-group rounded-0">
                         <li className="wd-cheek-li list-group-item">
-                                <LCheek />
+                                <div><LCheek />
+                                </div>
                                 <div className="float-start">
                                 <a className="wd-assignment-link"
                                     href="#/Kanbas/Courses/101/Assignments/a1">
@@ -54,7 +55,8 @@ export default function Assignments() {
                                 Multiple Modules | <b>Not available until</b> May 6 at 12
                                 :00am | <b>Due:</b> May 13 at 11:59pm | 100 pts
                                 </div>
-                                <RCheek />
+                                <div><RCheek />
+                                </div>
                         </li>
                         <li className="wd-cheek-li list-group-item">
                                 <LCheek />
