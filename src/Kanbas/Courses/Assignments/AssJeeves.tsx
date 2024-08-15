@@ -1,6 +1,6 @@
 import { FaMagnifyingGlass, FaPlus } from "react-icons/fa6";
 
-export default function AssMan() {
+export default function AssJeeves() {
   return (
     <div id="wd-asscon" className="d-flex">
       <div className="input-group p-2 me-5">
