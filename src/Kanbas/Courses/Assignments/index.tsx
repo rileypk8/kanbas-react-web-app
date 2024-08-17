@@ -5,12 +5,11 @@ import { BsGripVertical, BsPlusLg } from "react-icons/bs";
 import { IoEllipsisVertical } from "react-icons/io5";
 
 import { useLocation, useParams } from "react-router";
-import * as db from "../../Database";
+import { assignments } from "../../Database";
 
 export default function Assignments() {
     const { cid } = useParams();
     const { pathname } = useLocation();
-    const assignments = db.assignments;
 
     return (
         <div id="wd-assignments">
@@ -38,7 +37,7 @@ export default function Assignments() {
                                     <LCheek />
                                     <div className="float-start">
                                         <a className="wd-assignment-link"
-                                            href={`${pathname}/${assignment._id}`}>
+                                            href={`#${pathname}/${assignment._id}`}>
                                             {assignment.title}
                                         </a>
                                         <br />

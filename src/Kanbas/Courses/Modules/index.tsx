@@ -4,11 +4,10 @@ import LessonControlButtons from "./LessonControlButtons";
 import { BsGripVertical } from "react-icons/bs";
 
 import { useParams } from "react-router";
-import * as db from "../../Database";
+import { modules } from "../../Database";
 
 export default function Modules() {
   const { cid } = useParams();
-  const modules = db.modules;
 
   return (
     <div id="wd-modules">

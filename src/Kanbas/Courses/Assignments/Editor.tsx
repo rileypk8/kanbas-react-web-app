@@ -1,7 +1,15 @@
+import { useLocation, useParams } from "react-router";
+import { assignments } from "../../Database";
+
 export default function AssignmentEditor() {
+
+    const { aid } = useParams();
+    const { pathname } = useLocation();
+
     return (
         <div id="wd-assignments-editor" className="d-flex p-3">
             <form>
+                
                 <div className="row mb-3 col-sm-12">
                     <label htmlFor="wd-name" className="justify-content-start">
                         Assignment Name
