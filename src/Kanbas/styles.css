@@ -35,3 +35,19 @@ li .wd-lesson {
 li .wd-cheek-li {
   border-left: 3px solid green; 
 }
+
+label .col-form-label {
+  float: end;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td {
+  background-color: lavender;
+};
+
+.table-striped > thead > tr > th {
+  background-color: deeppink;
+};
+
+.table-info {
+  --bs-table-bg: darkorchid,
+}
