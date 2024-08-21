@@ -24,7 +24,7 @@ export default function PathParameters() {
       </a>
       
       <a className="btn btn-info me-2" id="wd-path-parameter-add"
-         href={`${b === `0`? "https://youtu.be/8HqyEHqEYho" : `${REMOTE_SERVER}/lab5/divide/${a}/${b}`}`}>
+         href={`${b === `0`? "https://youtu.be/7qnd-hdmgfk" : `${REMOTE_SERVER}/lab5/divide/${a}/${b}`}`}>
          Gazinta: {a} / {b}
       </a>
       <br />

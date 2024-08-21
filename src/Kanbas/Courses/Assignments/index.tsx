@@ -7,13 +7,17 @@ import { IoEllipsisVertical } from "react-icons/io5";
 import { useLocation, useParams } from "react-router";
 import { assignments } from "../../Database";
 
+// import { addPiece, editPiece, updatePiece, deletePiece }
+//   from "./reducer";
+// import { useSelector, useDispatch } from "react-redux";
+
 export default function Assignments() {
     const { cid } = useParams();
     const { pathname } = useLocation();
 
     return (
         <div id="wd-assignments">
-            <div>
+            <div> 
                 <AssJeeves />
             </div>
 
@@ -41,7 +45,7 @@ export default function Assignments() {
                                             {assignment.title}
                                         </a>
                                         <br />
-                                        <span className="text-danger">Multiple Modules</span> | <b>Not available until</b> May 6 at 12
+                                        <span className="text-danger">Multiple Pieces</span> | <b>Not available until</b> May 6 at 12
                                         :00am | <b>Due:</b> May 13 at 11:59pm | 100 pts
                                     </div>
                                     <RCheek />

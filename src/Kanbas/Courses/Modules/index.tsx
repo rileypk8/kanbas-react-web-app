@@ -4,8 +4,6 @@ import LessonControlButtons from "./LessonControlButtons";
 import { BsGripVertical } from "react-icons/bs";
 import React, { useState } from "react";
 import { useParams } from "react-router";
-import * as db from "../../Database";
-
 import { addModule, editModule, updateModule, deleteModule }
   from "./reducer";
 import { useSelector, useDispatch } from "react-redux";
@@ -16,12 +14,11 @@ export default function Modules() {
   const { modules } = useSelector((state: any) => state.modulesReducer);
   const dispatch = useDispatch();
 
-  return (
-    <div id="wd-modules">
-
-      <ModulesControls
-        setModuleName={setModuleName}
-        moduleName={moduleName}
+console.log("sup?");
+console.log(modules);
+return (
+    <div className="wd-modules">
+      <ModulesControls moduleName={moduleName} setModuleName={setModuleName}
         addModule={() => {
           dispatch(addModule({ name: moduleName, course: cid }));
           setModuleName("");
