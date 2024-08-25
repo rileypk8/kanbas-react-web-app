@@ -1,9 +1,11 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { assignments } from "../../Database";
+
 const initialState = {
-    booty: [],
+    booty: assignments
 };
-const bootySlice = createSlice({
-    name: "booty",
+const bbl = createSlice({
+    name: "bbl",
     initialState,
     reducers: {
 
@@ -13,10 +15,16 @@ const bootySlice = createSlice({
 
         addPiece: (state, { payload: piece }) => {
             const newPiece: any = {
-                _id: new Date().getTime().toString(),
+                _id: piece.pid.toString(),
                 lessons: [],
-                name: piece.name,
+                title: "",
                 course: piece.course,
+                desc: "",
+                pts: "",
+                due: "",
+                afrom: "",
+                ato: "",
+                new: true,
             };
             state.booty = [...state.booty, newPiece] as any;
         },
@@ -37,5 +45,5 @@ const bootySlice = createSlice({
     },
 });
 export const { addPiece, deletePiece, updatePiece, editPiece, setBooty } =
-    bootySlice.actions;
-export default bootySlice.reducer;
+    bbl.actions;
+export default bbl.reducer;

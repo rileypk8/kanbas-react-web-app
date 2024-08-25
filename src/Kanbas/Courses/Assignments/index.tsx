@@ -3,17 +3,21 @@ import RCheek from "./RCheek";
 import AssJeeves from "./AssJeeves";
 import { BsGripVertical, BsPlusLg } from "react-icons/bs";
 import { IoEllipsisVertical } from "react-icons/io5";
-
 import { useLocation, useParams } from "react-router";
-import { assignments } from "../../Database";
 
 // import { addPiece, editPiece, updatePiece, deletePiece }
 //   from "./reducer";
-// import { useSelector, useDispatch } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 
 export default function Assignments() {
     const { cid } = useParams();
     const { pathname } = useLocation();
+    const assignments = useSelector((state: any) => state.bbl).booty;
+
+    /*
+    console.log("index");
+    console.log(useSelector((state: any) => state.bbl));
+    */
 
     return (
         <div id="wd-assignments">
@@ -39,7 +43,7 @@ export default function Assignments() {
                             .map((assignment: any) => (
                                 <li className="wd-cheek-li list-group-item">
                                     <LCheek />
-                                    <div className="float-start">
+                                    <div className="float-start flex-grow-1">
                                         <a className="wd-assignment-link"
                                             href={`#${pathname}/${assignment._id}`}>
                                             {assignment.title}
@@ -48,10 +52,12 @@ export default function Assignments() {
                                         <span className="text-danger">Multiple Pieces</span> | <b>Not available until</b> May 6 at 12
                                         :00am | <b>Due:</b> May 13 at 11:59pm | 100 pts
                                     </div>
-                                    <RCheek />
+                                    
+                                    <RCheek piece={assignment}/>
                                 </li>
                             ))}
                     </ul>
+                
                 </li>
             </ul >
         </div >

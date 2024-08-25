@@ -10,10 +10,12 @@ const hello = () => {
         <h2>Click Event</h2>
         <button onClick={hello} id="wd-hello-world-click">
           Hello World!</button>
-        <button onClick={() => lifeIs("Good!")}
+        <button className="btn btn-lg btn-secondary me-1 float-end " 
+        onClick={() => lifeIs("Good!")}
                 id="wd-life-is-good-click">
           Life is Good!</button>
-        <button onClick={() => {
+        <button className="btn btn-lg btn-danger me-1 float-end"
+        onClick={() => {
                   hello();
                   lifeIs("Great!");
                 }} id="wd-life-is-great-click">

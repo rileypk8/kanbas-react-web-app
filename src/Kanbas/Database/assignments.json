@@ -1,11 +1,11 @@
 [
-    { "_id": "A101", "title": "Propulsion Assignment", "course": "RS101" },
-    { "_id": "A102", "title": "Combustion Analysis", "course": "RS101" },
-    { "_id": "A103", "title": "Nozzle Design Project", "course": "RS101" },
-    { "_id": "A201", "title": "Aerodynamics Quiz", "course": "RS102" },
-    { "_id": "A202", "title": "Flow Analysis", "course": "RS102" },
-    { "_id": "A203", "title": "Heating Analysis", "course": "RS102" },
-    { "_id": "A301", "title": "Structural Design Task", "course": "RS103" },
-    { "_id": "A302", "title": "Orbital Calculations", "course": "RS103" },
-    { "_id": "A303", "title": "Systems Engineering Exam", "course": "RS103" }
+    { "_id": "A101", "title": "Propulsion Assignment", "course": "RS101", "desc": "There is no value in the JSON for alot of data-driven stuff. There was no instruction to update it. So I made it up as a constant to show understanding of concept.", "pts": "100", "due": "2020-08-08", "afrom": "2020-02-29", "ato": "2020-08-08"},
+    { "_id": "A102", "title": "Combustion Analysis", "course": "RS101", "desc": "", "pts": "", "due": "", "afrom": "", "ato": ""},
+    { "_id": "A103", "title": "Nozzle Design Project", "course": "RS101", "desc": "", "pts": "", "due": "", "afrom": "", "ato": ""},
+    { "_id": "A201", "title": "Aerodynamics Quiz", "course": "RS102", "desc": "", "pts": "", "due": "", "afrom": "", "ato": ""},
+    { "_id": "A202", "title": "Flow Analysis", "course": "RS102", "desc": "", "pts": "", "due": "", "afrom": "", "ato": ""},
+    { "_id": "A203", "title": "Heating Analysis", "course": "RS102", "desc": "", "pts": "", "due": "", "afrom": "", "ato": ""},
+    { "_id": "A301", "title": "Structural Design Task", "course": "RS103", "desc": "", "pts": "", "due": "", "afrom": "", "ato": ""},
+    { "_id": "A302", "title": "Orbital Calculations", "course": "RS103", "desc": "", "pts": "", "due": "", "afrom": "", "ato": ""},
+    { "_id": "A303", "title": "Systems Engineering Exam", "course": "RS103", "desc": "", "pts": "", "due": "", "afrom": "", "ato": ""}
   ]
