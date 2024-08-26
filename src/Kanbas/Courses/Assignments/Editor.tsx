@@ -14,10 +14,11 @@ export default function AssignmentEditor() {
     const dispatch = useDispatch();
     let piece = booty.find((p: any) => p._id === aid);
 
+    /*
     console.log("sup?");
     console.log(aid);
     console.log(piece)
-    
+    */
 
     function update(state: any) {
         // just update our own copy, we'll save if you click the Save button
